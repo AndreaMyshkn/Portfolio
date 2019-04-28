@@ -33,15 +33,15 @@ font-weight: normal;
 font-family: europa; */
     /* font-family: sans-serif; */
     font-weight: 400px;
-    background-color: #f0ecfc;
-    background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%);
+    background-color: #fff;
+    /* background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%); */
     /* background-size:cover; */
 }
 
 
 nav {
     padding: 8px;
-    color: white;
+    color: #9266CC;
 }
 
 .logo {
@@ -52,7 +52,7 @@ nav {
 }
 
 .logo a {
-    color: #000;
+    color: white;
     text-transform: uppercase;
 
     font-weight: 700;
@@ -62,7 +62,7 @@ nav {
 }
 
 .nav-color{
-    background-color:white;
+    background-color:#9266CC;
     height: 80px;
 }
 nav ul {
@@ -87,7 +87,7 @@ nav ul li:last-child{
 nav ul li a {
     display: inline-block;
     outline: none;
-    color: #000;
+    color:white;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 18px;
@@ -194,16 +194,16 @@ nav ul li a {
     margin-top: 4px;
 }
 
-#nav:checked + .nav-btn{
-    transform: rotate(45deg);
+#nav:checked + .nav-btn {
+    transform: rotate(45deg) ;
 }
-
 
 #nav:checked + .nav-btn i{
     background: #000;
     transition: transform 0.2s ease;
 
 }
+
 
 
 #nav:checked + .nav-btn i:nth-child(1){
@@ -214,7 +214,7 @@ nav ul li a {
 }
 
 #nav:checked + .nav-btn i:nth-child(3){
-    transform: translateY(-6px) rotate (90deg)
+    transform: translateY(-6px) rotate (180deg)
 }
 #nav:checked ~ .nav-wrapper{
     z-index: 9990;
